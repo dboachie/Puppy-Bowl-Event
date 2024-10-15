@@ -38,8 +38,8 @@ export default function PuppyForm() {
           />
         </label>
         <button>Add to Roster</button>
-        {isLoading && <output>Uploading puppy information...</output>}
-        {error && <output>{error.message}</output>}
+        {/* {isLoading && <output>Uploading puppy information...</output>}
+        {error && <output>{error.message}</output>} */}
       </form>
     </>
   );
